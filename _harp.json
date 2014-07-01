@@ -1,6 +1,7 @@
 {
     "globals": {
         "title": "67 Burger",
+        "how_much_beers": "9",
         "locations": {
             "ft_greene": {
                 "address": "67 Lafayette at Fulton Street",

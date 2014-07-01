@@ -4,4 +4,6 @@ html
     title #{ title } | Home
     link(rel="stylesheet" href="/main.css")
   body
+    != partial("_header")
     != yield
+    != partial("_footer")
