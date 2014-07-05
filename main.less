@@ -2,23 +2,77 @@
 @import (inline) "skeleton.css";
 @import "footer.less";
 
+@background:#ffffff;
+@text: #000000;
+@burger-brown: #461c0d;
+@burger-orange: #ff6633;
+@burger-blue: #00adee;
+@burger-green:#9fd105;
+
 body{
+  background: @background;
+  color: @text;
   font-family: "Helvetica";
+  font-size: 14px;
   text-align: center;
-  padding: 50px 20px 0;
-  background: #f4f4f7;
-  color: #444;
   margin: 0;
 }
 
-h1{
-  font-size: 65px;
-  line-height: 1.2em;
-  border-bottom: #CCC solid 1px;
+#carousel{
+  background: red;
+  height: 425px;
+  margin-bottom: 50px;
+}
+.three.columns.special {
+  background: blue;
+  width: 200px;
+  height: 165px;
+}
+#order{
+  background: @burger-blue;
+  height: 80px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.address{
+  background: green;
+  height: 142px;
+  margin-bottom: 30px;
+}
+.zagat {
+  background:orange;
+  height: 165px;
+  margin-top: 50px;
+}
+#logo {
+  margin: 0 auto;
+  position: relative;
+  top: 58px;
+}
+#main-nav {
+  border-top: 4px solid @burger-brown;
+  border-bottom: 4px solid @burger-brown;
   padding: 20px 0;
+  margin-bottom: 50px;
 }
-
-h3{
-  font-weight: 300;
+#main-nav ul {
+  margin-bottom: 0;
+    li {
+      float: left;
+      margin-bottom: 0;
+    }
+    a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: @burger-brown;
+      padding: 0 30px;
+      font-size: 18px;
+    }
 }
-
+#main-nav ul.menu-left {
+  float: left;
+}
+#main-nav ul.menu-right {
+  float: right;
+}
