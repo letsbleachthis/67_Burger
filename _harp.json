@@ -2,6 +2,9 @@
     "globals": {
         "title": "67 Burger",
         "how_much_beers": "9",
+        "description": "Brooklyn Hamburgers",
+        "keywords": "hamburger, cheeseburger, brooklyn, new york, fort greene, park slope, beer shake, fries",
+        "author": "Lauren Chilcote, ifDifferent",
         "locations": {
             "ft_greene": {
                 "address": "67 Lafayette at Fulton Street",
