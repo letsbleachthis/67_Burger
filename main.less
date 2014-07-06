@@ -17,6 +17,7 @@ body{
   font-size: 14px;
   text-align: center;
   margin: 0;
+  border: 10px solid @burger-brown;
 }
 a, a:visited {
   color: @burger-brown;
@@ -30,7 +31,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: @burger-brown;
   font-family: "Helvetica", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
 }
 .full-width {
   width: 100%;
@@ -57,7 +58,11 @@ h1, h2, h3, h4, h5, h6 {
       color: @burger-brown;
       padding: 0 24px;
       font-size: 20px;
+      font-weight: bold;
     }
+      a:active {
+        color: @burger-orange;
+      }
 }
 #main-nav ul.menu-left {
   float: left;
