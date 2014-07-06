@@ -7,13 +7,13 @@
         "author": "Lauren Chilcote, ifDifferent",
         "locations": {
             "ft_greene": {
-                "address": "67 Lafayette at Fulton Street",
+                "address": "67 Lafayette Brooklyn, NY 11217",
                 "google_maps_url": "https://www.google.com/maps/place/67+Lafayette+Ave/@40.6872881,-73.9758292,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25bb19e379fc7:0x2b74faa5604ecab6?hl=en",
                 "phone": "718.797.7150",
                 "fax": "718.797.7151"
             },
             "park_slope": {
-                "address": "234 Flatbush Ave at Bergen Street",
+                "address": "234 Flatbush Brooklyn, NY 11217",
                 "google_maps_url": "https://www.google.com/maps/place/234+Flatbush+Ave/@40.6803626,-73.9751754,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25baecf10cd71:0xcb987b3c6c63b910?hl=en",
                 "phone": "718.399.6767",
                 "fax": "718.399.6867"

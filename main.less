@@ -31,14 +31,39 @@ body{
 #order{
   background: @burger-blue;
   height: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-radius: 10px;
-  color: #ffffff;
+}
+a.order {
+  color:#ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: .025em;
+  position: relative;
+  top: 36%;
 }
 .address{
-  background: green;
-  height: 142px;
-  margin-bottom: 30px;
+  height: 120px;
+  margin-bottom: 20px;
+    h4 {
+      color: @burger-orange;
+    }
+    p {
+      font-size: 16px;
+    }
+}
+.address.greene {
+  border-bottom: 2px dotted @burger-brown;
+}
+.address.slope {
+  margin-top: 38px;
+}
+.delivery {
+  color: @burger-blue;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .zagat {
   background:orange;
