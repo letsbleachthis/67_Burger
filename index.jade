@@ -10,12 +10,15 @@
       .address.greene
         h4 FORT GREENE
         a(href="#{ locations.ft_greene.google_maps_url }").
-          #{ locations.ft_greene.address }
+          #{ locations.ft_greene.street_address }
+        a(href="#{ locations.ft_greene.google_maps_url }").
+          #{ locations.ft_greene.state_address }
         p #{ locations.ft_greene.phone }
       .address.slope
         h4 PARK SLOPE
         a(href="#{ locations.park_slope.google_maps_url }").
-          #{ locations.park_slope.address }
+          #{ locations.park_slope.street_address }
+        a(href="#{ locations.park_slope.google_maps_url }").
+          #{ locations.park_slope.state_address }
         p #{ locations.park_slope.phone }
-        a.delivery(href="locations.html") Delivery Zone
       .zagat
