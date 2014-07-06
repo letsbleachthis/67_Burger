@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
 //Homepage
+#main-nav {
+  position: relative;
+  top: -106px;
+}
 #main-nav ul {
   margin-bottom: 0;
     li {
@@ -52,6 +56,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #main-nav ul.menu-right {
   float: right;
+}
+#logo {
+  margin: 0 auto;
+  position: relative;
+  top: -76px;
 }
 #carousel{
   background: red;
@@ -107,18 +116,33 @@ a.order {
   text-transform: uppercase;
 }
 .zagat {
-  background:orange;
   height: 165px;
   margin-top: 66px;
 }
-#logo {
-  margin: 0 auto;
+//Footer
+#footer-banner {
+  background: @burger-brown;
+  height: 100px;
   position: relative;
-  top: 58px;
+  bottom: -41px;
 }
-#main-nav {
-  border-top: 4px solid @burger-brown;
-  border-bottom: 4px solid @burger-brown;
-  padding: 20px 0;
-  margin-bottom: 50px;
+.footer {
+  position: relative;
+  top: -28px;
+    p {
+      color: #ffffff;
+    }
+}
+#social-nav ul {
+  float: left;
+    li {
+  display: inline;
+    }
+    a {
+      color: #ffffff;
+      padding-right: 10px;
+    }
+}
+#newsletter {
+  float: right;
 }
