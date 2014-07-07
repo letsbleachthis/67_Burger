@@ -172,3 +172,71 @@ a.order {
 #newsletter {
   float: right;
 }
+form {
+  margin-bottom: 0;
+  padding-top: 10px;
+  float: right;
+}
+input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 9px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		font: 14px;
+		color: @burger-brown;
+		width: 185px;
+		max-width: 100%;
+		display: inline;
+		margin: 3px 10px 0 0;
+		background: #fff;
+}
+input[placeholder] {
+  padding-left:10px;
+}
+.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		background: @burger-blue;
+	  border: 0;
+	  border-top: 0;
+	  border-left: 0;
+	  -moz-border-radius: 3px;
+	  -webkit-border-radius: 3px;
+	  border-radius: 3px;
+	  color: #ffffff;
+	  font-size: 13px;
+	  font-weight: bold;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+	  text-decoration: none;
+	  text-shadow: none;
+	  padding: 10px 12px;
+    float: right;
+}
+.button:hover,
+	button:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover {
+		color: #ffffff;
+		background: @burger-blue;
+	  border: 0;
+	  border-top: 0;
+	  border-left: 0;
+}
+	.button:active,
+	button:active,
+	input[type="submit"]:active,
+	input[type="reset"]:active,
+	input[type="button"]:active {
+		border: 0;
+		background: @burger-blue;
+}
