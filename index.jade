@@ -1,9 +1,10 @@
 .container
     .twelve.columns
       #carousel.eleven.columns
-      .three.columns.special
-      .three.columns.special
-      .three.columns.special
+      #specials.row
+        .three.columns.special
+        .three.columns.special
+        .three.columns.special
     .four.columns
       #order
         a.order(href="#") Order Online
@@ -21,4 +22,4 @@
         a(href="#{ locations.park_slope.google_maps_url }").
           #{ locations.park_slope.state_address }
         p #{ locations.park_slope.phone }
-      .zagat
+      //.zagat
