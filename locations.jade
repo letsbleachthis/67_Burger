@@ -1,0 +1,27 @@
+.container
+    .eight.columns
+      .address.greene
+        h4 FORT GREENE
+        a(href="#{ locations.ft_greene.google_maps_url }" target="_blank").
+          #{ locations.ft_greene.street_address }
+        a(href="#{ locations.ft_greene.google_maps_url }" target="_blank").
+          #{ locations.ft_greene.state_address }
+        p #{ locations.ft_greene.phone }
+      .map
+      .directions
+        h5 SUBWAY
+        p Fulton G / Lafayette C
+        p Barclay's Atlantic Center M, B, D, 4-5, N, Q, R, 2-3
+    .eight.columns.offset-by-eight
+      .address.slope
+        h4 PARK SLOPE
+        a(href="#{ locations.park_slope.google_maps_url }" target="_blank").
+          #{ locations.park_slope.street_address }
+        a(href="#{ locations.park_slope.google_maps_url }" target="_blank").
+          #{ locations.park_slope.state_address }
+        p #{ locations.park_slope.phone }
+      .map
+      .directions
+        h5 SUBWAY
+        p Bergen 2-3 / 7th Ave B, Q
+        p Barclay's Atlantic Center D, 4-5-6, N, R
