@@ -1,10 +1,10 @@
 #header-banner.full-width
   .container
-    h1#logo.six.columns.offset-by-five: a(href="/index.html") 67 Burger
+    h1#logo.six.columns.offset-by-five: a(href="/") 67 Burger
     #main-nav.sixteen.columns
       ul.menu-left.five.columns
-        li: a(href="/menu.html") Menu
-        li: a(href="/locations.html") Locations
+        li(class="#{ current.source == 'menu' ? 'active' : '' }"): a(href="/menu.html") Menu
+        li(class="#{ current.source == 'locations' ? 'active' : '' }"): a(href="/locations.html") Locations
       ul.menu-right.five.columns
-        li: a(href="/about.html") About
-        li: a(href="/press.html") Press
+        li(class="#{ current.source == 'about' ? 'active' : '' }"): a(href="/about.html") About
+        li(class="#{ current.source == 'press' ? 'active' : '' }"): a(href="/press.html") Press
