@@ -1,10 +1,7 @@
 .container
     .twelve.columns
       #carousel.twelve.columns
-      #specials.row
-        .four.columns.special
-        .four.columns.special
-        .four.columns.special
+        img(src="/images/burger.png")
     .three.columns.offset-by-one
       #order
         a.order(href="#") Order Online
@@ -22,4 +19,9 @@
         a(href="#{ locations.park_slope.google_maps_url }" target="_blank").
           #{ locations.park_slope.state_address }
         p #{ locations.park_slope.phone }
-      //.zagat
+      #hours
+        h6 Open 7 days a week
+        p.time #{ hours1 }
+        p.days Sunday-Thursday
+        p.time #{ hours2 }
+        p.days Friday-Saturday
