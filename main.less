@@ -45,6 +45,15 @@ h1, h2, h3, h4, h5, h6 {
 .full-width {
   width: 100%;
 }
+.hide-text {
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 0px;
+  margin: 0;
+}
 
 //Homepage
 #header-banner {
@@ -82,16 +91,14 @@ h1, h2, h3, h4, h5, h6 {
 #main-nav ul.menu-right {
   float: right;
 }
-h1{
-  line-height: 83px;
-}
 #logo {
   margin-bottom: 0;
     a{
-      background:url(/images/67_burger_logo.png) no-repeat;
-      text-indent: -9999px;
       float: right;
-      width:100%;
+    }
+    img {
+      max-width: 340px;
+      height: auto;
     }
 }
 #carousel{
