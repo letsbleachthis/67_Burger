@@ -10,6 +10,9 @@
 @burger-green:#9fd105;
 
 //Basic Styles
+html {
+  height: 100%;
+}
 body{
   background: @background;
   color: @burger-brown;
@@ -18,6 +21,13 @@ body{
   text-align: center;
   margin: 0;
   border: 10px solid @burger-brown;
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -128px;
 }
 a, a:visited {
   color: @burger-brown;
@@ -145,7 +155,7 @@ a.order {
 //Footer
 #footer-banner {
   background: @burger-brown;
-  padding: 30px 0 0 0;
+  padding: 30px 0;
   margin-top: 35px;
 }
 .footer p{
