@@ -1,6 +1,6 @@
 .container
-    .eleven.columns
-      #carousel.eleven.columns
+    .twelve.columns
+      #carousel.twelve.columns
         div
           img.scale-with-grid(src="/images/heroshot.png" alt="Something for Everyone | 67 Burger")
         div
@@ -23,8 +23,15 @@
           img.scale-with-grid(src="/images/sodas.png" alt="Soda | 67 Burger")
         div
           img.scale-with-grid(src="/images/shreddedonion.png" alt="Shredded Onion Topping | 67 Burger")
-
-    #home-locations.four.columns
+      #specials.row.twelve.columns
+        .special.four.columns.alpha
+          img.scale-with-grid(src="/images/delivery.png" alt="Now offering delivery")
+        .special.four.columns
+          img.scale-with-grid(src="/images/birthday.png" alt="Host your birthday party")
+        .special.four.columns.omega
+          img.scale-with-grid(src="/images/giftcard.png" alt="Give the gift of yum")
+      img.twelve.columns.scale-with-grid(src="/images/draftbeers.png" alt="$3 Draft Beers")
+    #home-locations.three.columns
       #order
         a.order(href="#") Order Online
       .address.greene
