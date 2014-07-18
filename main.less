@@ -9,6 +9,14 @@
 @burger-blue: #00adee;
 @burger-green:#9fd105;
 
+//Fonts
+@font-face {
+  font-family: 'CoreCircus';
+  src: url('fonts/2B6D76_0_0.eot'); /* IE9 Compat Modes */
+  src: url('fonts/2B6D76_0_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/2B6D76_0_0.woff') format('woff'), /* Modern Browsers */
+       url('fonts/2B6D76_0_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 //Basic Styles
 html {
   height: 100%;
@@ -74,10 +82,12 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 0;
     }
     a {
+      font-family: 'CoreCircus';
+      letter-spacing: -.1em;
       text-transform: uppercase;
       text-decoration: none;
       color: @burger-brown;
-      margin: 0 24px;
+      margin: 0 18px;
       padding: 0 0 3px 0;
       font-size: 18px;
       font-weight: bold;
