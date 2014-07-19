@@ -370,8 +370,6 @@ input[placeholder] {
 }
 //Menu page
 #burgers {
-  padding-bottom: 20px;
-  border-bottom: 2px dotted @burger-brown;
     .heading {
       h1 {
         font-family: 'CoreCircus', 'Helvetica', sans-serif;
@@ -457,5 +455,23 @@ input[placeholder] {
     line-height: 1em;
     letter-spacing: .02em;
     margin-bottom: 8px;
+  }
+}
+.ribbon {
+  margin: 0 auto 10px auto;
+  h5 {
+  color: #ffffff;
+  position: relative;
+  margin-top: -34px;
+  }
+  h5::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: @burger-brown;
+    position: absolute;
+    top: 50%;
+    z-index: -2;
   }
 }
