@@ -400,7 +400,7 @@ input[placeholder] {
 .section.stacked {
   border-bottom: 2px dotted #630;
 }
-.option.three.columns {
+.option.three.columns, .option.four.columns {
   margin: 0;
   padding: 6px 11px;
   border-right: 2px dotted @burger-brown;
@@ -431,7 +431,10 @@ input[placeholder] {
       font-size: 16px;
     }
 }
-.option.three.columns.omega {
+.option.four.columns {
+  padding: 6px 0;
+}
+.option.three.columns.omega, .option.four.columns.omega {
   padding-right: 0;
   border-right: 0;
 }
@@ -533,5 +536,55 @@ input[placeholder] {
     line-height: 1.3em;
     letter-spacing: .02em;
     margin-bottom: 8px;
+  }
+}
+.kids.eight.columns.alpha {
+  background: @burger-blue;
+  padding-bottom: 20px;
+    span{
+      font-style: italic;
+    }
+    h1 {
+      color: #ffffff;
+    }
+    h3 {
+      color: #ffffff;
+      margin-top: 6px;
+    }
+    .option.four.columns.alpha {
+      border-right: 2px dotted #ffffff;
+    }
+}
+.drinks.eight.columns.omega {
+  h1 {
+    color: @burger-blue;
+    //margin-left: 26px;
+  }
+  h3 {
+    text-align: left;
+    margin-top: 14px;
+  }
+  p {
+    font-family: 'Bitter', Georgia, serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: lowercase;
+    line-height: 1.4em;
+    margin-bottom: 4px;
+    text-align: left;
+  }
+  .option.four.columns.alpha {
+    border-right: 0;
+  }
+  .option.four.columns.omega {
+    margin-left: 20px;
+  }
+  img {
+    margin-top: 26px;
+    max-width: 34px;
+  }
+  img.left {
+    float: left;
+    margin-left: 40px;
   }
 }
