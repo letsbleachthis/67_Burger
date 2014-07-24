@@ -22,21 +22,21 @@ html {
   height: 100%;
 }
 body{
+  position: relative;
   background: @background;
   color: @burger-brown;
   font-family: "Helvetica";
   font-size: 14px;
   text-align: center;
   margin: 0;
-  height: 100%;
+  min-height: 100%;
+  padding-bottom: 163px;
 }
-#wrap {
 /*#wrap {
   height: auto !important;
   height: 100%;
   margin-bottom: -128px;
   padding-bottom: 128px;
-}
 }*/
 a, a:visited {
   color: @burger-brown;
@@ -176,17 +176,25 @@ a.order {
 }
 //Footer
 #footer-banner {
+  position: absolute;
   background: @burger-brown;
-  padding: 30px 0;
+  //padding: 30px 0;
   margin-top: 35px;
+  height: 128px;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
-.footer p{
-  float:left;
-  color: #ffffff;
-  font-size:16px;
-  margin-top: 21px;
-  margin-left: 20px;
-  font-weight:bold;
+.footer {
+  margin-top: 20px;
+    p{
+      float:left;
+      color: #ffffff;
+      font-size:16px;
+      margin-top: 21px;
+      margin-left: 20px;
+      font-weight:bold;
+    }
 }
 #social-nav {
   margin-top: 8px;
