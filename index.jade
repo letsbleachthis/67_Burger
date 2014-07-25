@@ -53,7 +53,9 @@
         p #{ locations.park_slope.phone }
       #hours
         h6 Open 7 days a week
-        p.time #{ hours1 }
-        p.days Sunday-Thursday
-        p.time #{ hours2 }
-        p.days Friday-Saturday
+        #time-1
+          p.time #{ hours1 }
+          p.days Sunday-Thursday
+        #time-2
+          p.time #{ hours2 }
+          p.days Friday-Saturday
