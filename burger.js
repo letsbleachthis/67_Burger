@@ -4,5 +4,6 @@ $(document).ready(function(){
 		autoplaySpeed: 1750,
 		fade: true,
 		speed: 1500,
+		arrows: false,
 	});
 });
