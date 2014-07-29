@@ -922,19 +922,18 @@ h5.zone {
       }
   }
   #header-banner {
-    height: 130px;
+    height: 98px;
     #main-nav {
       top: -10px;
-      margin-left: 20px;
+      margin-left: 10px;
         ul.menu-left.five.columns, ul.menu-right.five.columns {
-          width: 210px;
+          float: none;
           li {
             float: left;
-            margin-bottom: 12px;
             a {
-              font-size: 17px;
+              font-size: 12px;
               padding-bottom: 0;
-              margin: 0 7px;
+              margin: 0 6px;
             }
           }
         }
@@ -971,5 +970,29 @@ h5.zone {
         margin-left: 4px;
         margin-right: 4px;
       }
+  }
+  #header-banner {
+    height: 136px;
+    #main-nav {
+      top: -8px;
+      margin-left: 20px;
+        ul.menu-left.five.columns, ul.menu-right.five.columns {
+          width: 210px;
+          li {
+            float: left;
+            margin-bottom: 12px;
+            a {
+              font-size: 17px;
+              padding-bottom: 0;
+              margin: 0 7px;
+            }
+          }
+        }
+        u.menu-right.five.columns {
+          li {
+            float: right;
+          }
+        }
+    }
   }
 }
