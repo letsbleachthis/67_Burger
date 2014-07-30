@@ -1,12 +1,19 @@
 #footer-banner.full-width
-  .container.footer
-    #social-nav.eight.columns
+  .container.footer.sixteen.columns
+    #social-nav.four.columns
       ul
         li: a.facebook(href="http://facebook.com/67burger" target="_blank") Facebook
         li: a.twitter(href="http://twitter.com/67burger" target="_blank") Twitter
         li: a.instagram(href="http://instagram.com/67burger" target="_blank") Instagram
-    #newsletter.eight.columns
-      p STAY UPDATED
-      form(name="input", action="#", method="post")
-        input(type="text", name="user" placeholder="you@example.com")
-        input(type="submit", value="Submit")
+    #newsletter.twelve.columns
+      p Stay Updated
+      form.six.columns(name="input", action="#", method="post")
+        input.four.columns(type="text", name="user" placeholder="you@example.com")
+        input.two.columns(type="submit", value="Submit")
+    #info.sixteen.columns
+      p.copyright &copy; 67 Burger. All rights reserved.
+      p.credit
+        | Website by
+        a(href="laurenchilcote.com" target="_blank") Lauren Chilcote
+        | &
+        a(href="ifdifferent.com" target="_blank") ifDifferent Creative
