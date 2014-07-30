@@ -6,10 +6,22 @@
         li: a.twitter(href="http://twitter.com/67burger" target="_blank") Twitter
         li: a.instagram(href="http://instagram.com/67burger" target="_blank") Instagram
     #newsletter.eight.columns
-      p Stay Updated
-      form(name="input", action="#", method="post")
-        input(type="text", name="user" placeholder="you@example.com")
-        input(type="submit", value="Submit")
+      #mc_embed_signup
+        form#mc-embedded-subscribe-form.validate(action="//67burger.us3.list-manage.com/subscribe/\
+post?u=2383f83bd38a9645a171a6f96&amp;id=2ea5186c58"
+             method="post"
+             name="mc-embedded-subscribe-form"
+             target="_blank" novalidate)
+         label(for="mce-EMAIL") Stay Updated
+         input#mce-EMAIL.email(type="email" value="" name="EMAIL" placeholder="email address" required)
+         // real people should not fill this in and expect good things - do not remove this or risk
+         // form bot signups
+         div(style="position: absolute; left: -5000px;")
+           input(type="text" name="b_2383f83bd38a9645a171a6f96_2ea5186c58" tabindex="-1" value="")
+         .clear
+           input#mc-embedded-subscribe.button(type="submit" value="Subscribe" name="subscribe")
+      //  input(type="text", name="user" placeholder="you@example.com")
+      //  input(type="submit", value="Submit")
     #info.sixteen.columns
       p.credit &copy; 67 Burger. All rights reserved.
         | Website by
