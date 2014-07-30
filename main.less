@@ -228,9 +228,6 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
-#social-nav {
-  margin-top: 8px;
-}
 #social-nav ul {
   float: left;
   margin-bottom: 20px;
@@ -255,21 +252,25 @@ h1, h2, h3, h4, h5, h6 {
 #social-nav ul li a.instagram {
   background-position: 52px 0px;
 }
-#newsletter {
-  float: right;
-    form {
-      margin-bottom: 12px;
-      padding-top: 10px;
-      float: right;
-      height: 52px;
+#newsletter #mc_embed_signup {
+  background: @burger-brown;
+  form {
+    padding: 0;
+    float: right;
+    label {
+      float: left;
+      font-family: 'Bitter', Georgia, serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-top: 10px;
+      padding-bottom: 0;
     }
     input[type="text"],
       input[type="password"],
       input[type="email"],
       textarea,
       select {
-        border: 1px solid #ccc;
-        padding: 9px 4px;
         outline: none;
         -moz-border-radius: 2px;
         -webkit-border-radius: 2px;
@@ -284,6 +285,10 @@ h1, h2, h3, h4, h5, h6 {
     }
     input[placeholder] {
       padding-left:10px;
+    }
+    .two.columns.omega {
+      float: right;
+      margin-top: 3px;
     }
     .button,
       button,
@@ -305,10 +310,9 @@ h1, h2, h3, h4, h5, h6 {
         text-transform: uppercase;
         text-decoration: none;
         text-shadow: none;
-        padding: 10px 12px;
         margin-bottom: 0;
         margin-left: 0;
-        float: right;
+        width: 60px;
     }
     .button:hover,
       button:hover,
@@ -329,6 +333,7 @@ h1, h2, h3, h4, h5, h6 {
         border: 0;
         background: @burger-blue;
     }
+  }
 }
 #info {
   padding-top: 20px;
