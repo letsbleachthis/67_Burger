@@ -867,6 +867,13 @@ h5.zone {
 /*  #Mobile (Portrait)
 ================================================== */
 @media only screen and (max-width: 767px){
+  body > .container {
+    margin: 0 auto -345px; /*Height of footer + 25px for margin*/
+    padding-bottom: 345px; /*Height of footer + 25px for margin*/
+  }
+  #footer-banner {
+    height: 320px;
+  }
   #carousel {
     margin-top: 20px;
   }
@@ -988,6 +995,13 @@ h5.zone {
 /* #Mobile (Landscape)
 ================================================== */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  body > .container {
+    margin: 0 auto -315px; /*Height of footer + 25px for margin*/
+    padding-bottom: 315px; /*Height of footer + 25px for margin*/
+  }
+  #footer-banner {
+    height: 290px;
+  }
   #home-locations {
     #order {
       width: 70%;
