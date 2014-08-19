@@ -1,6 +1,31 @@
 .container
     #left-location.seven.columns
       .address.locations.seven.columns
+            h4.hide-text PARK SLOPE
+              img.scale-with-grid.six.columns(src="/images/parkslope_300.png")
+            .seven.columns
+              #delivery.three.columns
+                a.delivery(href="/delivery.html") Delivery
+              #slope.three.columns
+                a(href="#{ locations.park_slope.google_maps_url }" target="_blank").
+                  #{ locations.park_slope.street_address }
+                a(href="#{ locations.park_slope.google_maps_url }" target="_blank").
+                  #{ locations.park_slope.state_address }
+                p #{ locations.park_slope.phone }
+          .map.seven.columns
+            iframe(src="https://www.google.com/maps/embed/v1/place?q=234%20Flatbush%20Av \
+    enue%2C%20Brooklyn%2C%20NY%2C%20United%20States&key=AIzaSyB3D4Dur7ECQHftVRGYQ2286JUOu5UttYg&zoom=15"
+                   height="400"
+                   frameborder="0"
+                   style="border:0")
+          .directions.seven.columns
+            h5 SUBWAY
+            p Bergen 2-3 / 7th Ave B, Q <br />Barclay's Atlantic Center D, 4-5-6, N, R
+            a(href="https://www.hopstop.com/route?city=newyork&county2=36047&address2=234%20Flatbush% \
+    20Ave.&mode=s&iid=5oy1drcmr3zv2ayg"
+              target="_blank") Hopstop
+    #right-location.seven.columns
+      .address.locations.seven.columns
         h4.hide-text FORT GREENE
           img.scale-with-grid.six.columns(src="/images/fortgreene_300.png")
         a(href="#{ locations.ft_greene.google_maps_url }" target="_blank").
@@ -18,31 +43,6 @@ venue%2C%20Brooklyn%2C%20NY%2C%20United%20States&key=AIzaSyB3D4Dur7ECQHftVRGYQ22
         h5 SUBWAY
         p Fulton G / Lafayette C <br />Barclay's Atlantic Center M, B, D, 4-5, N, Q, R, 2-3
         a(href="https://www.hopstop.com/route?city=newyork&county2=36047&address2=67%20Lafayette% \
-20Ave.&mode=s&iid=5oy1drcmr3zv2ayg"
-          target="_blank") Hopstop
-    #right-location.seven.columns
-      .address.locations.seven.columns
-        h4.hide-text PARK SLOPE
-          img.scale-with-grid.six.columns(src="/images/parkslope_300.png")
-        .seven.columns
-          #delivery.three.columns
-            a.delivery(href="/delivery.html") Delivery
-          #slope.three.columns
-            a(href="#{ locations.park_slope.google_maps_url }" target="_blank").
-              #{ locations.park_slope.street_address }
-            a(href="#{ locations.park_slope.google_maps_url }" target="_blank").
-              #{ locations.park_slope.state_address }
-            p #{ locations.park_slope.phone }
-      .map.seven.columns
-        iframe(src="https://www.google.com/maps/embed/v1/place?q=234%20Flatbush%20Av \
-enue%2C%20Brooklyn%2C%20NY%2C%20United%20States&key=AIzaSyB3D4Dur7ECQHftVRGYQ2286JUOu5UttYg&zoom=15"
-               height="400"
-               frameborder="0"
-               style="border:0")
-      .directions.seven.columns
-        h5 SUBWAY
-        p Bergen 2-3 / 7th Ave B, Q <br />Barclay's Atlantic Center D, 4-5-6, N, R
-        a(href="https://www.hopstop.com/route?city=newyork&county2=36047&address2=234%20Flatbush% \
 20Ave.&mode=s&iid=5oy1drcmr3zv2ayg"
           target="_blank") Hopstop
     #delivery-restrictions.sixteen.columns
