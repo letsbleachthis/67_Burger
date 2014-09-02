@@ -1,12 +1,13 @@
 #header-banner.full-width
   .container
-    h1#logo.hide-text.six.columns.offset-by-five 67 Burger
-      a(href="/")
-        img.scale-with-grid.six.columns(src="/images/67_burger_logo2.png")
-    #main-nav.sixteen.columns
+    .main-nav.menu-left.five.columns
       ul.menu-left.five.columns
         li(class="#{ current.source == 'menu' ? 'active' : '' }"): a(href="/menu.html") Menu
         li(class="#{ current.source == 'locations' ? 'active' : '' }"): a(href="/locations.html") Locations
+    h1#logo.hide-text.six.columns 67 Burger
+      a(href="/")
+        img.scale-with-grid.six.columns(src="/images/67_burger_logo2.png")
+    .main-nav.menu-right.five.columns
       ul.menu-right.five.columns
         li(class="#{ current.source == 'about' ? 'active' : '' }"): a(href="/about.html") About
         li(class="#{ current.source == 'press' ? 'active' : '' }"): a(href="/press.html") Press

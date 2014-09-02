@@ -71,11 +71,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 35px;
   height: 83px;
 }
-#main-nav {
+.main-nav {
   position: relative;
-  top: -48px;
+  top: 36px;
+  z-index: 1;
 }
-#main-nav ul {
+.main-nav ul {
   margin-bottom: 0;
     li {
       float: left;
@@ -93,17 +94,18 @@ h1, h2, h3, h4, h5, h6 {
       font-weight: bold;
     }
 }
-#main-nav ul li.active a {
+.main-nav ul li.active a {
   border-bottom: 2px dotted @burger-brown;
 }
-#main-nav ul.menu-left {
+.main-nav ul.menu-left {
   float: left;
 }
-#main-nav ul.menu-right {
+.main-nav ul.menu-right {
   float: right;
 }
 #logo {
   margin-bottom: 0;
+  z-index: 1000;
     img {
       height: auto;
       margin: 0;
@@ -833,8 +835,8 @@ h5.zone {
     #logo {
       margin-top: 10px;
     }
-    #main-nav {
-      top: -58px;
+    .main-nav {
+      top: 18px;
       ul.menu-left.five.columns {
         li {
         float: none;
@@ -990,9 +992,7 @@ h5.zone {
   #header-banner {
     height: 98px;
     margin-bottom: 25px;
-    #main-nav {
-      top: -10px;
-      margin-left: 2px;
+    .main-nav {
         ul.menu-left.five.columns, ul.menu-right.five.columns {
           float: none;
           li {
@@ -1004,10 +1004,14 @@ h5.zone {
             }
           }
         }
-        u.menu-right.five.columns {
-          li {
-            float: right;
-          }
+        ul.menu-left.five.columns {
+          //top: 125px;
+        }
+        ul.menu-right.five.columns {
+          top: -8px;
+            li {
+              float: right;
+            }
         }
     }
   }
@@ -1094,10 +1098,14 @@ h5.zone {
             }
           }
         }
-        u.menu-right.five.columns {
-          li {
-            float: right;
-          }
+        ul.menu-left.five.columns {
+          top: 125px;
+        }
+        ul.menu-right.five.columns {
+          top: -8px;
+            li {
+              float: right;
+            }
         }
     }
   }
