@@ -837,7 +837,7 @@ h5.zone {
     }
     .main-nav {
       top: 18px;
-      ul.menu-left.five.columns {
+      ul.left.five.columns {
         li {
         float: none;
         margin-bottom: 12px;
@@ -847,14 +847,15 @@ h5.zone {
           }
         }
       }
-      ul.menu-right.five.columns {
-        li {
-          float: none;
-          margin-bottom: 12px;
-            a {
-              font-size: 16px;
-              padding-bottom: 0;
-            }
+      ul.right.five.columns {
+        float: right;
+          li {
+            float: none;
+            margin-bottom: 12px;
+              a {
+                font-size: 16px;
+                padding-bottom: 0;
+              }
         }
       }
     }
@@ -992,28 +993,37 @@ h5.zone {
   #header-banner {
     height: 98px;
     margin-bottom: 25px;
-    .main-nav {
-        ul.menu-left.five.columns, ul.menu-right.five.columns {
-          float: none;
-          li {
-            float: left;
+    #logo {
+      z-index: 0;
+      position: relative;
+      top: -14px;
+    }
+    .main-nav.menu-left.five.columns {
+      width: 150px;
+      position:relative;
+      top: 64px;
+      margin-left: 10px;
+        li {
+          float: left;
             a {
               font-size: 13px;
-              padding-bottom: 0;
-              margin: 0 6px;
-            }
-          }
-        }
-        ul.menu-left.five.columns {
-          //top: 125px;
-        }
-        ul.menu-right.five.columns {
-          top: -8px;
-            li {
-              float: right;
+              margin: 0 4px;
             }
         }
     }
+    .main-nav.menu-right.five.columns {
+      width: 150px;
+      position: relative;
+      top: -28px;
+      margin-left: 170px;
+        li {
+          float: left;
+            a {
+              font-size: 13px;
+              margin: 0 4px;
+            }
+        }
+      }
   }
   img.zagat {
     width: 300px;
@@ -1082,30 +1092,35 @@ h5.zone {
     margin-left: 20px;
   }
   #header-banner {
-    height: 136px;
-    #main-nav {
-      top: -8px;
-      margin-left: 2px;
-        ul.menu-left.five.columns, ul.menu-right.five.columns {
+    height: 154px;
+    #logo {
+      top: -4px;
+      z-index: 0;
+    }
+    .main-nav.menu-left.five.columns {
+      width: 210px;
+      position: relative;
+      top: 104px;
+      margin-left: 30px;
+        ul {
           width: 210px;
-          li {
-            float: left;
-            margin-bottom: 12px;
-            a {
-              font-size: 18px;
-              padding-bottom: 0;
-              margin: 0 10px;
+            li a {
+              font-size: 17px;
+              margin: 0 6px;
             }
-          }
         }
-        ul.menu-left.five.columns {
-          top: 125px;
-        }
-        ul.menu-right.five.columns {
-          top: -8px;
-            li {
-              float: right;
-            }
+    }
+    .main-nav.menu-right.five.columns {
+      width: 210px;
+      position: relative;
+      top: -18px;
+      margin-left: 238px;
+        ul {
+          width: 210px;
+            li a {
+                  font-size: 17px;
+                  margin: 0 6px;
+                }
         }
     }
   }
