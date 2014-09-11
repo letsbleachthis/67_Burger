@@ -28,11 +28,15 @@
       .address.locations.seven.columns
         h4.hide-text FORT GREENE
           img.scale-with-grid.six.columns(src="/images/fortgreene_300.png")
-        a(href="#{ locations.ft_greene.google_maps_url }" target="_blank").
-          #{ locations.ft_greene.street_address }
-        a(href="#{ locations.ft_greene.google_maps_url }" target="_blank").
-          #{ locations.ft_greene.state_address }
-        p #{ locations.ft_greene.phone }
+        .seven.columns
+          #no-delivery.three.columns
+            p <span>No delivery</span> <br /> Call for pickup
+          #greene.three.columns
+            a(href="#{ locations.ft_greene.google_maps_url }" target="_blank").
+              #{ locations.ft_greene.street_address }
+            a(href="#{ locations.ft_greene.google_maps_url }" target="_blank").
+              #{ locations.ft_greene.state_address }
+            p #{ locations.ft_greene.phone }
       .map.seven.columns
         iframe(src="https://www.google.com/maps/embed/v1/place?q=67%20Lafayette%20A \
 venue%2C%20Brooklyn%2C%20NY%2C%20United%20States&key=AIzaSyB3D4Dur7ECQHftVRGYQ2286JUOu5UttYg&zoom=15"
