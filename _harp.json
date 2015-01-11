@@ -4,8 +4,8 @@
         "description": "Brooklyn Hamburgers",
         "keywords": "hamburger, cheeseburger, brooklyn, new york, fort greene, park slope, beer shake, fries",
         "author": "Lauren Chilcote, ifDifferent",
-        "hours1": "11:30am-10pm",
-        "hours2": "11:30am-11pm",
+        "hours1": "11:30-10",
+        "hours2": "11:30-11",
         "locations": {
             "ft_greene": {
                 "street_address": "67 Lafayette Ave",
