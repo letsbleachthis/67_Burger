@@ -22,23 +22,13 @@
         #{ locations.ft_greene.state_address }
       p #{ locations.ft_greene.phone }
     #hours
-      h6 Winter Hours
-      #day.two.columns.omega
-        p.days Monday
-        p.days Tuesday
-        p.days Wednesday
-        p.days Thursday
-        p.days Friday
-        p.days Saturday
-        p.days Sunday
-      #time.two.columns.alpha
+      h6 Open 7 days a week
+      #time-1
         p.time #{ hours1 }
-        p.time CLOSED
-        p.time #{ hours1 }
-        p.time #{ hours1 }
+        p.days Sunday-Thursday
+      #time-2
         p.time #{ hours2 }
-        p.time #{ hours2 }
-        p.time #{ hours1 }
+        p.days Friday-Saturday
       img.zagat.scale-with-grid(src="/images/zagatbadge.png" alt="67 Burger Zagat Favorite")
   .eleven.columns.omega
     #carousel.eleven.columns.omega
